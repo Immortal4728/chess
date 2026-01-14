@@ -43,7 +43,7 @@ const Hero = () => {
       ease: 'power3.out',
     });
   }, []);
-  
+  // Images fix redeploy - chess project
   useEffect(() => {
     const heading = document.querySelector('.section1-heading');
     const para = document.querySelector('.section1-para');
